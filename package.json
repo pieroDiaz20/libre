@@ -1,0 +1,18 @@
+{
+  "name": "aws-mysql-rds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"sls offline"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "querystring": "^0.2.1",
+    "serverless-offline": "^8.8.0"
+  }
+}
